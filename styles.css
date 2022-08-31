@@ -5,30 +5,31 @@
     font-family:arial;
 }
 body{
-    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.2)), url('./images/image-2.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.2)), url('./images/image-2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 210%;
     display:flex;
     justify-content:center;
     align-items: center;
-    height:100vh;
+    min-height:100vh;
 }
 .container{
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.4)), url('./images/image-1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url('./images/image-1.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size:cover;
     min-width:450px;
     max-width: min-content;
     border: 3px solid black;
-    border-radius: 10px;
-    padding:20px 10px 10px;
+    border-radius: 12px;
+    padding:20px 10px 0px;
     text-align: center;
 }
 .box{
     box-shadow:0px 0px 40px rgb(21, 104, 110);
     border-radius: 10px;
-    padding:10px 8px 20px;
+    border: 1px solid black;
+    padding:10px 8px 0px;
     margin-bottom:10px;
     max-width:none;
 }
@@ -39,10 +40,11 @@ h1{
     letter-spacing:1px;
 }
 h2{
-    font-size:55px;
+    font-size:60px;
     font-weight:bold;
     margin:8px 0;
     color:yellow;
+    text-shadow: -4px -4px 5px black;
 }
 .buttons{
     display:flex;
@@ -53,34 +55,45 @@ button{
     outline:none;
     margin:10px 5px;
     padding:8px 15px;
-    text-transform: uppercase;
+    text-transform:capitalize;
     border:none;
-    border-radius:5px;
+    border-radius:10px;
     box-shadow:0px 0px 15px black, 0px 0px 15px black;
     transition:transform .3s;
     cursor:pointer;
     font-weight:bolder;
-    font-size:16px;
+    font-size:15px;
+    text-shadow:0px 0px 5px rgb(109, 119, 119);
 }
 button:hover{
     transform: scale(1.1);
 }
 #increment-btn{
-    background-color:rgba(1, 21, 61, 0.87);
-    color:rgb(37, 161, 192);
-}
-#save-btn{
-    background-color:rgba(86, 209, 240, 0.596);
-    color:rgba(1, 21, 61);
-}
-#delete-btn{
-    background-color:rgba(241, 0, 12, 0.678);
+    background-color:rgba(37, 161, 192, 0.548);
     color:rgb(0, 0, 0);
 }
-.data{
+#save-btn{
+    background-color:rgba(27, 255, 6, 0.548);
+    color:rgb(0, 0, 0);
+}
+#delete-btn{
+    background-color:rgba(37, 161, 192, 0.548);
+    color:rgb(0, 0, 0);
+}
+#clear-btn{
+    background-color:rgba(241, 0, 12, 0.616);
+    color:rgb(0, 0, 0);
+    padding:8px 12px;
+}
+#data{
+    background-color:rgba(0, 0, 0, 0.514);
+    padding:10px 10px 20px;
+    min-height:70px;
     font-weight:600;
-    color:white;
-    font-size:22px;
+    color:rgb(202, 208, 209);
+    border-radius:10px;
+    border: 2px solid black;
+    font-size:18px;
     text-shadow:0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 50px rgb(86, 209, 240);
     line-break: auto;
     text-align:left;
@@ -94,5 +107,16 @@ button:hover{
     }
     h1{
         font-size: 27px;
+    }
+    button{
+        padding:5px 10px;
+    }
+    #save-btn{
+        order: 3;
+    }
+    #data{
+        font-size:14px;
+        letter-spacing:1px;
+        text-align: center;
     }
 } 
