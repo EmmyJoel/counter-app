@@ -26,7 +26,7 @@ function Delete() {
 }
 
 function save() {
-    let data =  numberText.textContent + ' + ';
+    let data =  numberText.textContent + ' - ';
     if(numberText.textContent > 0) {
         previousEntry.textContent +=  data;
     }
