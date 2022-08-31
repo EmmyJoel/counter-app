@@ -1,4 +1,4 @@
-### Counter App.
+# Counter App.
 
 ## Overview
 
@@ -33,7 +33,7 @@
 - Netlify : [https://dancing-gnome-8d5e1a.netlify.app]
 - Github : [https://emmyjoel.github.io/counter-app/]
 
-# Let's Connect 😃 
+## Let's Connect 😃 
 
 - Twitter : [https://www.twitter.com/Jay_n_Codes]
 - LinkedIn : [https://www.linkedin.com/in/emmanuel-okhuoya-735576238]
