@@ -8,7 +8,7 @@
 - Designed to a perfect, soothing and calm interface. Aside working with it, you'll love just to see it.
 
 
-## Previews
+## Previews on different viewports
 
 <img src="./images/counter-app.jpg">
 <img src="./images/counter-macbook.jpg">
