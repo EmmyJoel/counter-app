@@ -11,8 +11,8 @@
 ## Previews on different viewports
 
 <img src="./images/counter-app.jpg">
-<img src="./images/counter-macbook.jpg">
 <img src="./images/counter-mobile.jpg">
+<img src="./images/counter-macbook.jpg">
 
 ## How it works
 
