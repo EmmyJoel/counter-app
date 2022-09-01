@@ -2,7 +2,7 @@
 
 ## Overview
 
-- Ever been faced with a situation of counting and keeping record of number of persons?. I've been there myself and one great challenge I've aways had is keeping track just fine when the number has gone wild, or say when I have to pause counting to continue later. 
+- Ever been faced with a situation of counting and keeping record of number of things or even persons?. I've been there myself and one great challenge I've aways had is keeping track just fine when the number has gone wild, or say when I have to pause counting to continue later. 
 - You can't blame me 😄, Counting is one job while keeping track and record of the numbers is another. However your brain can handle it, but why struggle when you can easily do just that with an app as this.
 - The COUNTER APP is built to aid every proccess involved with counting and keeping track of counted numbers.
 - Designed to a perfect, soothing and calm interface. Aside working with it, you'll love just to see it.
