@@ -32,3 +32,4 @@ function clr() {
     if (previousEntry.textContent.length === 14) return
     previousEntry.textContent = previousEntry.textContent.toString().slice(0, -4)
 }
+document.getElementById('date').innerText = Date();
